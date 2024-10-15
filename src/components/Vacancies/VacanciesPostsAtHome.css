@@ -1,0 +1,47 @@
+.sliding-text-container h2  {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  letter-spacing: 0.04em;
+  line-height: 29.9px;
+  font-size: 20px;
+}
+
+.sliding-text-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliding-text {
+  white-space: nowrap;
+  animation: slide 23s linear infinite;
+  margin-top: 0.3rem;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.vacancies-btn_mobile {
+  display: flex;
+  color: var(--color-white);
+}
+
+@media screen and (max-width:650px) {
+  .vacancies-btn_mobile {
+    display: flex;
+    color:rgb(111, 180, 183);
+    font-style: var(--font-base);
+  }
+
+  .sliding-text {
+    animation: slide 15s linear infinite;
+  }
+}
