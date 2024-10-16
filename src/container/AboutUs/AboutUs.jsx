@@ -25,8 +25,7 @@ const AboutUs = () => (
         <p className='p__opensans'>The story of Fortress Restaurant is one of passion, partnership, and a shared vision for excellence. It began with Mr. Maphanga, a visionary whose dedication to fine dining and culinary artistry laid the foundation for what would become a landmark in the gastronomic world. Alongside him was his wife, Mrs. Maphanga, whose love for hospitality and attention to detail added warmth and charm to the heart of Fortress. 
         <div />
         Together, they dreamed of creating a place where strength, elegance, and exquisite cuisine could unite in perfect harmony. With a team of world-class chefs and culinary innovators, Mr. and Mrs. Maphanga set out to build Fortress Restaurant—a sanctuary where every dish tells a story of craftsmanship and heritage. 
-        <div />
-        Drawing inspiration from global culinary traditions and their deep-rooted love for food, they aimed to redefine luxury dining. Today, Fortress stands as a testament to their shared passion, offering an unparalleled experience where every guest is treated like royalty.</p> 
+        </p> 
        
       </div>
     </div>

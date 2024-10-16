@@ -29,7 +29,7 @@ const Gallery = () => {
   }
 
   return (
-    <div className='app__gallery flex__center'>
+    <div className='app__gallery app__bg flex__center'>
       <div className="app__gallery-content">
         <SubHeading title='instagram' />
         <h1 className="headtext__cursive">Photo Gallery</h1>

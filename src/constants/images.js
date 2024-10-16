@@ -16,7 +16,7 @@ import quote from '../assets/quote.png';
 import chairman from '../assets/logo-landscape-png.png';
 
 import mainbg from '../assets/mainbg.png';
-import nightbg from '../assets/nightbg.jpg';
+import nightbg from '../assets/nightbg.png';
 
 // Menu Page 
 

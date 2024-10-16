@@ -9,7 +9,7 @@ import './FooterOverlay.css';
 
 const FooterOverlay = () => (
     <div className="app__footerOverlay">
-      <div className="app__footerOverlay-contents app__bg section__padding flex__center">
+      <div className="app__footerOverlay-contents section__padding flex__center">
         <div className='app__footerOverlay-aboutUs'>
           <SubHeading title='About Us' />
           
@@ -18,7 +18,7 @@ const FooterOverlay = () => (
 
         <div className="app__footerOverlay-img">
           <img src={images.C} alt="logo" />
-          <p className="p__opensans" id='copyright'>&copy; 2024 the fortress restaurants</p>
+          <p className="p__opensans" id='copyright'>&copy; 2024 fortress restaurants</p>
         </div>
 
         <div className='app__footerOverlay-contactUs'>

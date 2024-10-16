@@ -5,7 +5,7 @@ import './Newsletter.css';
 
 const Newsletter = () => {
   return (
-    <div className='app__newsletter section__padding'>
+    <div className='app__newsletter app__bg section__padding'>
 
 
       <SubHeading title='Subscribe' />

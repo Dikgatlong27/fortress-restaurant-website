@@ -7,7 +7,7 @@ const AboutUs = () => {
   return (
     <>
       <Navbar />
-      <div className="app__about">
+      <div className="app__about app__bg">
         <SubHeading title={'About Us'} />
         <div className="app__about-content">
           

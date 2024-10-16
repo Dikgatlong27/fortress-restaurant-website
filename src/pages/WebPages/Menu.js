@@ -12,7 +12,7 @@ const Menu = () => {
   return (
     <>
       <Navbar />      
-      <div className='about__h-one' style={{background: '#000', textAlign: 'center', padding: '2rem 0' }}>
+      <div className='about__h-one app__bg' style={{ textAlign: 'center', padding: '2rem 0' }}>
         <SubHeading  title={'Explore Our Delicious Menu'}/>
 
         <div className='app__menu-hero'>

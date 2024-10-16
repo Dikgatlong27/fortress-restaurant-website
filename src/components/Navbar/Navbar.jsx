@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'; 
 
-import { GiHamburgerMenu } from 'react-icons/gi';
+import { RxHamburgerMenu } from "react-icons/rx";
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 
 import images from '../../constants/images';
@@ -28,7 +28,7 @@ const Navbar = () => {
       </ul>
       
       <div className="app__navbar-smallscreen">
-        <GiHamburgerMenu color='#fff' fontSize={27} onClick={() => setToggleMenu(true)} />
+        <RxHamburgerMenu color='#aaa' fontSize={27} onClick={() => setToggleMenu(true)} />
 
         {toggleMenu && (
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
