@@ -18,9 +18,11 @@ const SlidesAtHero = ({ data }) => {
     return (
         <div className='carousel'>
             <BsArrowLeftCircleFill className='arrow arrow-left' onClick={prevSlide} />
+
             {data.map((item, idx) => (
                 <img src={item.src} alt={item.alt} key={idx} className={slide === idx ? 'slide' : 'slide slide-hidden'} />
             ))}
+            
             <BsArrowRightCircleFill className='arrow arrow-right' onClick={nextSlide} />
 
             <span className='indicators'>

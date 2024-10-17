@@ -31,9 +31,8 @@ const Gallery = () => {
   return (
     <div className='app__gallery app__bg flex__center'>
       <div className="app__gallery-content">
-        <SubHeading title='instagram' />
         <h1 className="headtext__cursive">Photo Gallery</h1>
-        <p className="p__opensans" style={{ color: '#aaa', marginTop: '2rem' }}>Explore the visual feast that awaits you at The Fortress Restaurant through our enchanting photo gallery</p>
+        <p className="p__opensans" style={{ color: '#aaa', marginTop: '2rem' }}>Immerse yourself in the stunning 3D designs of Fortress Restaurant. Explore the captivating architecture and elegant interior spaces that define the essence of luxury dining.</p>
         <button type='button' className='custom__button'><Link to='/gallery page'>Explore</Link></button>
       </div>
 

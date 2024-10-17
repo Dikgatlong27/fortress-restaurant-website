@@ -1,20 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; 
+import { IoBeerOutline } from "react-icons/io5";
+import { FaCocktail } from "react-icons/fa";
 
-import { SubHeading, MenuItem } from '../../components';
+import {  MenuItem } from '../../components';
 import { images, data } from '../../constants';
 import './SpecialMenu.css';
 
 const SpecialMenu = () => (
   <div className='app__specialMenu flex__center section__padding' id='menu'>
     <div className="app__specialMenu-title">
-      <SubHeading title='Menu that fits you pallate' />
       <h1 className='headtext__cursive'>Our Bar Menu</h1>
     </div>
 
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_wine flex__center">
-        <p className='app__specialMenu-menu_heading'>Wine & Beer</p>
+        <p className='app__specialMenu-menu_heading'>Wine & Beer <IoBeerOutline /> </p>
         
         <div className="app__specialMenu_menu_items">
           {data.wines.map((wine, index) => (
@@ -28,7 +29,7 @@ const SpecialMenu = () => (
       </div>
 
       <div className="app__specialMenu-menu_cocktails flex__center">
-        <p className='app__specialMenu-menu_heading'>Cocktails</p>
+        <p className='app__specialMenu-menu_heading'>Cocktails <FaCocktail /></p>
 
         <div className="app__specialMenu_menu_items">
           {data.cocktails.map((cocktail, index) => (

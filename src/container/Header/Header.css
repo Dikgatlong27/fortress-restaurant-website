@@ -22,7 +22,7 @@
     width: 600px;
     margin-bottom: 2rem;
     animation-name: slideInFromLeft;
-    animation-duration: 5s;
+    animation-duration: 12s;
 }
 
 @keyframes slideInFromLeft {
@@ -38,7 +38,7 @@
 
 .app__header button {
     animation-name: slideInFromRight;
-    animation-duration: 8s;
+    animation-duration: 5s;
 }
 
 @keyframes slideInFromRight {
@@ -98,7 +98,7 @@
 @media screen and (max-width: 600px) {
 
     .app__header {
-        padding: 8rem 2rem 6rem 2rem;
+        padding: 6rem 2rem 6rem 2rem;
         background-image: url(../../assets/mainbg.png);
         background-position: bottom;
         background-size: cover;
@@ -106,8 +106,12 @@
         transition: all 1s ease-in;
     }
 
+    .app__wrapper_info {
+        margin-bottom: -2rem;
+    }
+
     .header-content img {
-        width: 200px;
+        width: 250px;
         margin-bottom: 2rem;
     }
 

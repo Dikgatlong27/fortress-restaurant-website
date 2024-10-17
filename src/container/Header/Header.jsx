@@ -13,7 +13,7 @@ Header = () => (
 
     <div className="app__header-cont"  style={{marginTop: '4rem'}}>
       <div className="app__wrapper_info">
-        <SubHeading title='Discover the Essence of Fine Dining' />
+        <SubHeading title='Savor the Richness of African-Inspired Flavors' />
         <div className='header-content'>
           <img src="logo-landscape.png" alt="hero-logo" srcset="" />
           <p className="p__opensans" id='main-p'>Discover the strength of refined flavors and elegance, where every dish is a testament to luxury dining—a fortress of taste and sophistication.</p>
@@ -23,7 +23,7 @@ Header = () => (
       </div>
       <div className="app__wrapper_img">
         <h3 className='app__wrapper_img-header'>Featured Dishes</h3>
-        <SlidesAtHero className='app__wrapper_img-img' data={slides} />
+        <SlidesAtHero data={slides} />
       </div>
     </div>
     

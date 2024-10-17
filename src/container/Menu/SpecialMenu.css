@@ -59,13 +59,15 @@
 
 @media screen and (max-width: 1150px) {
     .app__specialMenu-menu {
-        flex-direction: column;
+        display: flex;
         align-items: center;
+        justify-content: center;
+        flex-direction: column;
         width: 100%;
     }
 
     .app__specialMenu_menu_img {
-        margin: 3rem 0;
+        margin: 2rem 0 4rem 0;
     }
 }
 
