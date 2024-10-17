@@ -1,22 +1,25 @@
 import bg from '../assets/bg.png';
 import chef from '../assets/chef.png';
 import C from '../assets/logo.png';
-import gallery01 from '../assets/gallery01.jpg';
-import gallery02 from '../assets/gallery02.jpg';
-import gallery03 from '../assets/gallery03.jpg';
-import gallery04 from '../assets/gallery04.jpg';
 import knife from '../assets/knife.png';
 import menu from '../assets/menu.png';
 import overlaybg from '../assets/overlaybg.png';
 import spoon from '../assets/spoon.png';
 import welcome from '../assets/welcome.png';
-import findus from '../assets/findus.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import chairman from '../assets/logo-landscape-png.png';
 
 import mainbg from '../assets/mainbg.png';
 import nightbg from '../assets/nightbg.png';
+
+import img1 from '../assets/Bar_Area_Design.jpg'
+import img2 from '../assets/Entrance_Welcome_Area.jpg'
+import img3 from '../assets/Exterior_Angle_View.jpg'
+import img4 from '../assets/Exterior_Front_View.jpg'
+import img5 from '../assets/Interior_Main_Dining_Area.jpg'
+import img6 from '../assets/Interior_Private_Dining_Room.jpg'
+import img7 from '../assets/Terrace_Seating.jpg'
 
 // Menu Page 
 
@@ -100,22 +103,25 @@ export default {
   bg,
   chef,
   C,
-  gallery01,
-  gallery02,
-  gallery03,
-  gallery04,
   knife,
   menu,
   overlaybg,
   spoon,
   welcome,
-  findus,
   sign,
   quote,
   chairman,
 
   mainbg,
   nightbg,
+
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7,
 
   // Menu Page 
 

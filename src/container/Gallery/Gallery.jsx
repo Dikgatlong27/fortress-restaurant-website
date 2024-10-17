@@ -5,7 +5,7 @@ import { images } from '../../constants'
 import './Gallery.css';
 import { Link } from 'react-router-dom';
 
-const galleryImages = [images.gallery01, images.gallery02, images.gallery03, images.gallery04];
+const galleryImages = [images.img1, images.img2, images.img3, images.img4, images.img5, images.img6, images.img7];
 
 // const instagramLinks = [
 //   'https://www.instagram.com/p/CyGGkFAMhZf/',
@@ -39,7 +39,7 @@ const Gallery = () => {
         <div className="app__gallery-images_container" ref={scrollRef}>
           {galleryImages.map((image, index) => (
             <div  key={`gallery_image-${index + 1}`}>
-              
+
               <div className="app__gallery-images_card flex__center">
                 <img src={image} alt="gallery" />
               </div>

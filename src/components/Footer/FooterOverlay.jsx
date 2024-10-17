@@ -24,14 +24,13 @@ const FooterOverlay = () => (
         <div className='app__footerOverlay-contactUs'>
           <SubHeading title='Contact Us' />
 
-          <p className='p__opensans'>0000</p>
-          <p className='p__opensans'>Menlyn Maine</p>
-          <p className='p__opensans'>Shop No. 01</p>
-          <p className='p__opensans'>Pretoria East</p>
-          <p className='p__opensans'>South Africa</p>
+          <p className='p__opensans'>Menlyn Maine, Central Square</p>
+          <p className='p__opensans'>Shop No. 106</p>
+          <p className='p__opensans'>883 Garsfontein Rd.</p>
+          <p className='p__opensans'>Pretoria East, South Africa</p>
           <div className="app__footerOverlay-contactUs_whatsapp flex__center">
             <FaWhatsapp size={20} color= 'green' />
-            <a className='p__opensans' href='https://wa.me/27676228529' target='_blank' rel='noreferrer'>WhatsApp Us</a>
+            <a className='p__opensans' href='https://wa.me/27608384036' target='_blank' rel='noreferrer'>WhatsApp Us</a>
           </div>
         </div>
       </div>

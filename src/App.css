@@ -59,9 +59,9 @@
 
 .custom__button {
   background: #dca867 ;
-  background: linear-gradient(40deg, #dca867 0%, #14362b 99%);
-  background: -webkit-linear-gradient(40deg, #dca867 0%, #14362b 99%);
-  background: -moz-linear-gradient(40deg, #dca867 0%, #14362b 99%);
+  background: linear-gradient(90deg, #dca867 0%, #14362b 90%);
+  background: -webkit-linear-gradient(90deg, #dca867 0%, #14362b 90%);
+  background: -moz-linear-gradient(90deg, #dca867 0%, #14362b 90%);
   color: var(--color-white);
   font-family: var(--font-base);
   font-weight: 700;
