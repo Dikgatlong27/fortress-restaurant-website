@@ -1,5 +1,5 @@
 .section__padding {
-  padding: 5rem 4rem;
+  padding: 12rem 4rem 5rem 4rem;
 }
 
 .section__padding-new {
@@ -58,8 +58,11 @@
 }
 
 .custom__button {
-  background-color: var(--color-crimson);
-  color: var(--color-black);
+  background: #dca867 ;
+  background: linear-gradient(40deg, #dca867 0%, #14362b 99%);
+  background: -webkit-linear-gradient(40deg, #dca867 0%, #14362b 99%);
+  background: -moz-linear-gradient(40deg, #dca867 0%, #14362b 99%);
+  color: var(--color-white);
   font-family: var(--font-base);
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -70,6 +73,11 @@
   border: none;
   outline: none;
   cursor: pointer;
+  transition: all .1s ease-in;
+}
+
+.custom__button:hover {
+  box-shadow: 0px 0px 1px 1px #EC5800;
 }
 
 .custom__input {
@@ -162,6 +170,10 @@
 }
 
 @media screen and (max-width: 1150px) {
+  .section__padding {
+    padding: 10rem 4rem 4rem 4rem;
+  }
+
   .app__wrapper {
     flex-direction: column;
   }
@@ -179,15 +191,9 @@
   }
 }
 
-@media screen and (max-width: 850px) {
-  .section__padding {
-    padding: 2rem;
-  }
-}
-
 @media screen and (max-width: 650px) {
   .section__padding {
-    padding: 2rem 1rem;
+    padding: 8rem 2rem 6rem 2rem;
   }
   
   .p__cursive {

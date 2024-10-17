@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'; 
 
-import { RxHamburgerMenu } from "react-icons/rx";
+import { GrRestaurant } from "react-icons/gr";
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 
 import images from '../../constants/images';
@@ -28,7 +28,7 @@ const Navbar = () => {
       </ul>
       
       <div className="app__navbar-smallscreen">
-        <RxHamburgerMenu color='#aaa' fontSize={27} onClick={() => setToggleMenu(true)} />
+        <GrRestaurant fontSize={27} className='overlay__btn' onClick={() => setToggleMenu(true)} />
 
         {toggleMenu && (
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">

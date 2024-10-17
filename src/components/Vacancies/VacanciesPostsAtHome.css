@@ -1,6 +1,6 @@
 .sliding-text-container h2  {
   font-family: var(--font-base);
-  color: var(--color-golden);
+  color: var(--color-blue);
   letter-spacing: 0.04em;
   line-height: 29.9px;
   font-size: 20px;
@@ -29,11 +29,6 @@
   }
 }
 
-.vacancies-btn_mobile {
-  display: flex;
-  color: var(--color-white);
-}
-
 @media screen and (max-width:650px) {
   .vacancies-btn_mobile {
     display: flex;
@@ -44,4 +39,24 @@
   .sliding-text {
     animation: slide 15s linear infinite;
   }
+}
+
+@media screen and (max-width: 1150px) {
+  .app__header {
+    padding: 4rem;
+  }
+
+  .header-content img {
+    width: 400px;
+    margin-bottom: 2rem;
+  }
+
+}
+
+@media screen and (max-width: 850px) {
+
+  .sliding-text-container h2  {
+    font-size: 17px;
+  }
+
 }

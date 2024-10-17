@@ -9,7 +9,7 @@ const VacanciesPostsAtHome = () => {
     <div className="sliding-text-container">
       <h2>Featured Job Openings</h2>
       <p className="p__opensans sliding-text"></p>
-      <li className='vacancies-btn_mobile'><Link to='/vacancies'>See Posts</Link></li>
+      <li className='vacancies-btn_mobile bounce-top'><Link to='/vacancies' style={{color: '#EC5800'}}>See Posts</Link></li>
     </div>
   )
 }

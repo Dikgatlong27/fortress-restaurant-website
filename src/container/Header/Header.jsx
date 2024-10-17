@@ -10,11 +10,12 @@ const
 Header = () => (
   <div className="app__header">
     <VacanciesPostsAtHome />
+
     <div className="app__header-cont"  style={{marginTop: '4rem'}}>
       <div className="app__wrapper_info">
         <SubHeading title='Discover the Essence of Fine Dining' />
         <div className='header-content'>
-          <h1 className='app__header-h1'>Discover Dining Excellence</h1>
+          <img src="logo-landscape.png" alt="hero-logo" srcset="" />
           <p className="p__opensans" id='main-p'>Discover the strength of refined flavors and elegance, where every dish is a testament to luxury dining—a fortress of taste and sophistication.</p>
         </div>
         

@@ -1,4 +1,5 @@
 import React from 'react';
+import { GiChefToque, GiCrown, GiForkKnifeSpoon } from "react-icons/gi";
 import { Navbar, FooterOverlay, SubHeading  } from '../../components';
 
 import './About.css';
@@ -7,27 +8,20 @@ const AboutUs = () => {
   return (
     <>
       <Navbar />
-      <div className="app__about app__bg">
+      <div className="app__about app__bg section__padding">
         <SubHeading title={'About Us'} />
         <div className="app__about-content">
-          
+          <GiForkKnifeSpoon fontSize={50} className='icon' />
           <p className="p__opensans">
-            Welcome to The Chairman Fortaleza de Sol, where exquisite dining experiences await you.
-            Our restaurant is renowned for its fine cuisine, impeccable service, and elegant ambiance.
-            Whether you're celebrating a special occasion or simply indulging in a memorable meal,
-            we strive to exceed your expectations with every dish we serve.
+            Welcome to Fortress Restaurant, where elegance and culinary excellence come together to create unforgettable dining experiences. At Fortress, we pride ourselves on offering a perfect blend of exquisite cuisine, refined service, and a sophisticated atmosphere, making every visit truly remarkable.
           </p>
+          <GiChefToque fontSize={50} className='icon' />
           <p className="p__opensans">
-            Our mission is to provide our guests with an unparalleled dining experience that
-            combines exceptional food, attentive service, and a warm, inviting atmosphere.
-            We source the finest ingredients and prepare each dish with care and precision,
-            ensuring that every bite is a delight for the senses.
+            Our mission is to provide our guests with a dining experience like no other—combining the finest ingredients with impeccable preparation and attention to detail. From the moment you walk through our doors, we aim to captivate your senses with flavors, presentation, and warmth that resonate in every dish.
           </p>
+          <GiCrown fontSize={50} className='icon' />
           <p className="p__opensans">
-            Our vision is to be the premier destination for fine dining in the Fortaleza de Sol region,
-            known for our commitment to quality, innovation, and excellence in hospitality.
-            We aim to create lasting memories for our guests and cultivate a loyal following
-            of discerning diners who appreciate the finer things in life.
+            Our vision is to establish Fortress as the leading destination for luxury dining, renowned not only in the Ezulwini region but beyond. We are committed to delivering innovation, quality, and excellence in every aspect of hospitality, ensuring that each visit leaves a lasting impression. Whether celebrating a special occasion or simply enjoying an evening out, we strive to make every moment at Fortress extraordinary.
           </p>
         </div>
       </div>
